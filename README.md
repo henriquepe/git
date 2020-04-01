@@ -99,14 +99,41 @@ depois de mesclado, pode-se perceber que os arquivos adicionados na branch mescl
 
 Resumo:
 
-- "git init"  —>  Inicia o repositorio
-- "git add" —> Adiciona ou atualiza mudancas para o repositorio
-- "git commit" —> adiciona um ponto (versionamento) de alteracao no repositorio
-- "git log" —> Visualiza os versionamentos (commits) do repositorio
-- "git status" —> Informa o estado de alteracoes do repositorio
-- "git show" —> apresenta determinado versionamento no repositorio
+"git init"  —>  Inicia o repositorio
+
+"git add" —> Adiciona ou atualiza mudancas para o repositorio
+
+"git commit" —> adiciona um ponto (versionamento) de alteracao no repositorio
+
+"git log" —> Visualiza os versionamentos (commits) do repositorio
+
+"git status" —> Informa o estado de alteracoes do repositorio
+
+"git show" —> apresenta determinado versionamento no repositorio
+
+"git branch" —> Gerenciar novas branch's
+
+"git checkout" —> Move tua administracao entre as branch's
+
+"git merge" —> Mesclador de branch's
+
+"git push" —> Realiza o upload do repositorio atualizado ao GitHub
 
 ---------------------==----------------------------
 
 Como colocar o projeto na Nuvem??
+
+  Primeiro de tudo, criar um repositorio no github, depois
+  —>
+  —>
+  —>
+  Para dar um upload do repositorio local para o repositorio remoto, em nuvem:
+
+    git remote add origin "link-do-repositorio-no-github"
+    git push -u origin master
+
+  e pronto, o repositorio local ja foi enviado para um repositorio remoto criado no GitHub.
+
+
+
 
