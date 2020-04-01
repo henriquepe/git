@@ -140,25 +140,22 @@ Como colocar o projeto na Nuvem??
 
 ---------------------==----------------------------
 
-Clonando repositorios:
+Clonando repositorios
 
 Para clonar um repositorio encontre-o no GitHub, abra sua tela principal.
 
-Na tela principal tera um botao verde com uma mensagem "Clone or Download", ao clicar sobre ele um link podera ser copiado, copie!!
+Na tela principal tera um botao verde com uma mensagem "Clone or Download", ao clicar sobre ele um item podera ser copiado, copie!!
 
 Voltando para o terminal local da sua maquina, digite o seguinte codigo para clonar o repositorio selecionado para o repositorio local:
 
-  git clone "https://github.com/diego3g/novoprojeto.git"
-  //exemplo
+    git clone "https://github.com/diego3g/novoprojeto.git"
+    //exemplo
 
-pronto! repositorio clonado, atualize o seu repositorio local para visualiza-lo.
+Quando se trabalha em equipe pode-se,
 
----------------------==----------------------------
+por commits de um mesmo arquivo em branch's diferentes, ocasionar conflitos. Para evita-los pode-se utilizar o:
 
-Quando se trabalha em equipe pode-se, por commits de um mesmo arquivo em branch's diferentes, ocasionar conflitos. Para evita-los pode-se utilizar o:
+    git pull
 
-  git pull
-
-o git pull ira fazer a atualizacao do repositorio local de acordo com o repositorio remoto, pois em equipe, aquele repositorio pode ter sido atualizado e voce sem esse comando nao tera ele dessa nova forma.
-
+o git pull ira fazer a atualizacao do repositorio local de acordo com o repositorio remoto, pois em equipe, aquele repositorio pode ter sido atualizado e voce sem esse comando nao tera ele dessa nova forma.
 
